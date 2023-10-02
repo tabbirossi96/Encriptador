@@ -1,0 +1,115 @@
+* {
+    background: var(--light-blue-light-blue-100, #F3F5FC);
+    color: var(--dark-blue-dark-blue-300, #0A3871);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    padding-top: 16px;
+    margin-left: 16px;
+    width: 120px;
+
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.tex-area {
+    heigth: 60%;
+    border: none;
+    margin-top: 5%;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871
+}
+
+.tex-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 40%;
+    background: var(--White, #FFF);
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+}
+
+.btn-encriptar {
+    border-radius: 24px;
+    background: var(--dark-blue-dark-blue-300, #0A3871);
+    color: var(--White, #FFF);
+    cursor: pointer;
+    width: 328px;
+    padding: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 2px;
+}
+
+.btn-desencriptar {
+    border-radius: 24px;
+    border: 1px solid var(--dark-blue-dark-blue-300, #0A3871);
+    background: #D8DFE8;
+    color: var(--dark-blue-dark-blue-300, #0A3871);
+    cursor: pointer;
+    margin-left: 2px;
+    width: 328px;
+    padding: 24px;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+
+.informacion {
+    color: var(--gray-gray-400, #495057);
+    font-size: 18px;
+
+}
+
+.copiar {
+    border-radius: 24px;
+    border: 1px solid var(--dark-blue-dark-blue-300, #0A3871);
+    color: var(--dark-blue-dark-blue-300, #0A3871);
+    cursor: pointer;
+    width: 328px;
+    padding: 24px;
+    gap: 8px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalm
+}
